@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/kbmjssw0/jacket/b/g/j/m-hljk000390-highlander-original-imafsxffabazgqqa.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Men's solid casual jacket",
+      "price": 689,
+      "sizes": {
+        "small": false,
+        "medium": true,
+        "large": false
+      },
+      "free_delivery":true
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/k34rki80/t-shirt/s/w/m/l-poly-510-12-14-tqh-original-imafkyg8nghr2v8h.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Men's solid casual jacket",
+      "price": 689,
+      "sizes": {
+        "small": false,
+        "medium": true,
+        "large": false
+      },
+      "free_delivery":true
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/k34rki80/t-shirt/s/w/m/l-poly-510-12-14-tqh-original-imafkyg8nghr2v8h.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Men's solid casual jacket",
+      "price": 689,
+      "sizes": {
+        "small": false,
+        "medium": true,
+        "large": false
+      },
+      "free_delivery":true
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/k34rki80/t-shirt/s/w/m/l-poly-510-12-14-tqh-original-imafkyg8nghr2v8h.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Men's solid casual jacket",
+      "price": 689,
+      "sizes": {
+        "small": false,
+        "medium": true,
+        "large": false
+      },
+      "free_delivery": false
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/k34rki80/t-shirt/s/w/m/l-poly-510-12-14-tqh-original-imafkyg8nghr2v8h.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Men's solid casual jacket",
+      "price": 689,
+      "sizes": {
+        "small": false,
+        "medium": true,
+        "large": false
+      },
+      "free_delivery":true
+    }
+  ]
+}

@@ -16,7 +16,6 @@ function ProductListing() {
     brand
   );
   useEffect(() => {
-    console.log("looggin");
     filter();
   }, [price, brand, ideal, size]);
 

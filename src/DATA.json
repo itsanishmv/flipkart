@@ -1,0 +1,142 @@
+{
+  "products": [
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/klphn680/top/c/w/v/xl-regular-top-fab-star-original-imagyry2vuckngxj.jpeg?q=70",
+      "brand": "Fab star",
+      "product_title": "Casual Regular Sleeves Solid Women Pink Top",
+      "price": 100,
+      "sizes": {
+        "small": true,
+        "medium": false,
+        "large": false
+      },
+      "idealFor":{
+        "Men": false,
+        "Women": true,
+        "kids":false
+      },
+      "free_delivery":false
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/kbmjssw0/jacket/b/g/j/m-hljk000390-highlander-original-imafsxffabazgqqa.jpeg?q=70",
+      "brand": "Prada",
+      "product_title": "Men's solid casual jacket",
+      "price": 200,
+      "sizes": {
+        "small": true,
+        "medium": false,
+        "large": false
+      },
+      "idealFor":{
+        "Men": true,
+        "Women": false,
+        "kids":false
+      },
+      "free_delivery":false
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/v/w/z/s-st10-vebnor-original-imaghnxxnuzgunmj.jpeg?q=70",
+      "brand": "Gucci",
+      "product_title": "Men's solid casual jacket",
+      "price": 300,
+      "sizes": {
+        "small": true,
+        "medium": false,
+        "large": false
+      },
+      "idealFor":{
+        "Men": true,
+        "Women": false,
+        "kids":false
+      },
+      "free_delivery":true
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/k34rki80/t-shirt/s/w/m/l-poly-510-12-14-tqh-original-imafkyg8nghr2v8h.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Men's solid casual jacket",
+      "price": 400,
+      "sizes": {
+        "small": true,
+        "medium": false,
+        "large": false
+      },
+     
+      "idealFor":{
+        "Men": true,
+        "Women": false,
+        "kids":false
+      },
+      "free_delivery":true
+      
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/k34rki80/t-shirt/s/w/m/l-poly-510-12-14-tqh-original-imafkyg8nghr2v8h.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Men's solid casual jacket",
+      "price": 500,
+      "sizes": {
+        "small": false,
+        "medium": false,
+        "large": true
+      },
+      "idealFor":{
+        "Men": true,
+        "Women": false,
+        "kids":false
+      },
+      "free_delivery": false
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/k34rki80/t-shirt/s/w/m/l-poly-510-12-14-tqh-original-imafkyg8nghr2v8h.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Men's solid casual jacket",
+      "price": 600,
+      "sizes": {
+        "small": false,
+        "medium": false,
+        "large": true
+      },
+      "idealFor":{
+        "Men": true,
+        "Women": false,
+        "Kids":false
+      },
+      "free_delivery":true
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/kl8ccy80/kids-t-shirt/n/a/q/6-7-years-h-printed-40783-smartraho-original-imagyef4gzrzcpbg.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Boys Printed Cotton Blend T Shirt  (Black, Pack of 1)",
+      "price": 600,
+      "sizes": {
+        "small": false,
+        "medium": true,
+        "large": false
+      },
+      "idealFor":{
+        "Men": false,
+        "Women": false,
+        "Kids":true
+      },
+      "free_delivery":true
+    },
+    {
+      "img_url": "https://rukminim1.flixcart.com/image/832/832/xif0q/sari/b/s/r/free-braso2-o-combo-lorofy-unstitched-original-imagkmbzhqfvecsk.jpeg?q=70",
+      "brand": "Highlander",
+      "product_title": "Self Design Bollywood Net Saree  (Green)",
+      "price": 1000,
+      "sizes": {
+        "small": false,
+        "medium": false,
+        "large": true
+      },
+      "idealFor":{
+        "Men": false,
+        "Women": true,
+        "Kids":false
+      },
+      "free_delivery":true
+    }
+  ]
+}

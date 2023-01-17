@@ -4,7 +4,7 @@ import SEARCH_ICON from "../Assets/search_icon.svg";
 import DOWNARROW_ICON from "../Assets/downArrow_icon.svg";
 function Navbar() {
   return (
-    <div className=" h-14 bg-flipkart-blue md:px-48 fixed right-0 left-0 top-0 flex gap-2 box-border z-20">
+    <div className=" h-14 bg-flipkart-blue md:px-48 px-20 fixed right-0 left-0 top-0 flex gap-2 box-border z-20">
       <div className="flex gap-4  items-center">
         <div className="flex flex-col">
           <img

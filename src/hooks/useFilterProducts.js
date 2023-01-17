@@ -1,9 +1,6 @@
-import React, { useEffect } from "react";
 import data from "../DATA.json";
 function useFilterProducts(setFilteredData, size, ideal, price, brand) {
   function filter() {
-    console.log("render");
-
     let filteredSize = data.products?.filter((item) => {
       if (size?.large || size?.medium || size?.small) {
         if (item.sizes.large && size.large) return true;
@@ -13,7 +10,6 @@ function useFilterProducts(setFilteredData, size, ideal, price, brand) {
     });
 
     let filteredBrand = filteredSize?.filter((item) => {
-      console.log(brand?.includes(item.brand));
       if (brand?.length > 0) {
         if (brand.includes(item.brand)) {
           return true;

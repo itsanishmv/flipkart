@@ -1,7 +1,7 @@
 import React from "react";
 import SingleProduct from "./SingleProduct";
 import data from "../DATA.json";
-function Products() {
+function Products({ filteredData }) {
   const para = ` Given how powerful social media has become these days, everyone around
     the world wants to look their best at all times. Thus, the right
     clothing and accessories are almost always in demand. Good-quality
@@ -16,14 +16,11 @@ function Products() {
     <div className=" rounded-lg w-full box-border min-h-screen  p-4 shadow-lg bg-default">
       <p className=" text-xs font-normal     text-flipkart-grey">{para}</p>
       <h3 className=" mt-2 font-semibold">Clothing And Accessories</h3>
-      <div className="flex justify-between w-1/3 items-end mt-2">
-        <span className=" font-medium">Sort By</span>
-        <span className=" text-flipkart-grey text-sm">Price - High to low</span>
-        <span className=" text-flipkart-grey text-sm">Price - Low to High</span>
-      </div>
-      <div className="flex flex-wrap gap-3   ">
-        {data?.products?.map((items) => (
+
+      <div className="flex flex-wrap gap-3 mt-2  ">
+        {filteredData?.map((items, index) => (
           <SingleProduct
+            key={index}
             brand={items.brand}
             product_title={items.product_title}
             sizes={items.sizes}

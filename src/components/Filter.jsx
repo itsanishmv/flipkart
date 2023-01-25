@@ -40,7 +40,7 @@ function Filter({
   }
 
   return (
-    <div className="relative rounded-lg sm:w-1/5 p-3 h-[50vh] sm:h-[100vh] pt-20 sm:pt-10 flex flex-col gap-4 bg-default w-full">
+    <div className="relative rounded-lg sm:w-1/5 p-3 min-h-[50vh] sm:h-[100vh] pt-20 sm:pt-10 flex flex-col gap-4 bg-default w-full">
       <div className="flex items-center justify-between">
         <div className=" text-lg font-medium">Filters</div>
         <span
@@ -122,10 +122,10 @@ function Filter({
           <span className="text-md font-semibold text-flipkart-grey">
             Price
           </span>
-          <div className="flex flex-col gap-2">
+          <div className="flex sm:flex-col p-2  gap-2">
             {sortByprice.map((items) => (
               <button
-                className="border-2 rounded-lg text-flipkart-grey"
+                className="border-2 flex p-1 rounded-lg text-flipkart-grey"
                 onClick={() => setPrice(items)}
               >
                 {items}

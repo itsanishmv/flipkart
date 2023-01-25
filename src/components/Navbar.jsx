@@ -4,7 +4,7 @@ import SEARCH_ICON from "../Assets/search_icon.svg";
 import DOWNARROW_ICON from "../Assets/downArrow_icon.svg";
 function Navbar() {
   return (
-    <div className=" h-14 bg-flipkart-blue md:px-48 px-20 fixed right-0 left-0 top-0 flex gap-2 box-border z-20">
+    <div className="h-20  sm:h-14 bg-flipkart-blue px-10 xl:px-48  sm:px-20 fixed right-0 left-0 top-0 flex gap-2 box-border z-20">
       <div className="flex gap-4  items-center">
         <div className="flex flex-col">
           <img
@@ -24,7 +24,7 @@ function Navbar() {
             </div>
           </div>
         </div>
-        <div className=" w-[35rem]">
+        <div className=" sm:w-[35rem]">
           <label
             for="default-search"
             className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -50,11 +50,11 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="flex items-center justify-evenly w-full text-default font-semibold ">
+      <div className="sm:flex items-center justify-evenly w-full text-default font-semibold hidden ">
         <button className=" bg-default py-1  box-border w-28 text-flipkart-blue text-base">
           Login
         </button>
-        <span>Become a Seller</span>
+        <span className="text-xs sm:text-sm">Become a Seller</span>
         <div className="flex gap-2 items-center">
           <span>More</span>
           <img className=" -rotate-90" src={DOWNARROW_ICON} alt="down arrow" />

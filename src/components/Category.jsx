@@ -13,10 +13,10 @@ function Category() {
     "Offer Zone",
   ];
   return (
-    <div className=" md:pt-14 bg-default flex justify-between px-32 text-sm  border-2 ">
+    <div className="pt-10 md:pt-14 bg-default sm:flex justify-between xl:px-32 text-sm  border-2 hidden ">
       {category?.map((item) => (
         <div className="flex justify-center items-center ">
-          <span className="md:p-2">{item}</span>
+          <span className="md:p-2 sm:text-xs box-border">{item}</span>
           <img
             className=" -rotate-90 h-2 w-2 "
             src={DROPARROW_ICON}

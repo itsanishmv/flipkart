@@ -14,7 +14,9 @@ function Products({ filteredData }) {
 
   return (
     <div className=" rounded-lg w-full box-border min-h-screen  p-4 shadow-lg bg-default">
-      <p className=" text-xs font-normal     text-flipkart-grey">{para}</p>
+      <p className=" text-xs font-normal   hidden sm:block  text-flipkart-grey">
+        {para}
+      </p>
       <h3 className=" mt-2 font-semibold">Clothing And Accessories</h3>
 
       <div className="flex flex-wrap gap-3 mt-2  ">

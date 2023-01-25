@@ -20,7 +20,7 @@ function ProductListing() {
   }, [price, brand, ideal, size]);
 
   return (
-    <div className="shadow-lg h-full  flex  gap-2  mt-2 px-2">
+    <div className="shadow-lg h-full flex-wrap  sm:flex-nowrap flex  gap-2  mt-2 px-2">
       <Filter
         setIdeal={setIdeal}
         setPrice={setPrice}

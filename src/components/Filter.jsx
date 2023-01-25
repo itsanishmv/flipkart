@@ -40,7 +40,7 @@ function Filter({
   }
 
   return (
-    <div className="relative rounded-lg sm:w-1/5 p-3 h-[50vh] sm:h-[100vh] flex-wrap pt-20 sm:pt-10 flex flex-col gap-4 bg-default w-full">
+    <div className="relative rounded-lg sm:w-1/5 p-3 h-[50vh] sm:h-[100vh] pt-20 sm:pt-10 flex flex-col gap-4 bg-default w-full">
       <div className="flex items-center justify-between">
         <div className=" text-lg font-medium">Filters</div>
         <span

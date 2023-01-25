@@ -27,7 +27,7 @@ function Navbar() {
         <div className=" sm:w-[35rem]">
           <label
             for="default-search"
-            className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+            className="mb-2 text-sm font-medium text-gray-900 sr-only "
           >
             Search
           </label>
@@ -35,7 +35,7 @@ function Navbar() {
             <input
               type="text"
               id="default-search"
-              className="block outline-none md:w-full box-border p-2  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="block outline-none md:w-full box-border p-2  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500  dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Search for products,brands and more"
             />
 
